@@ -4,7 +4,7 @@ using namespace std;
 
 bool isPalRec(char str[], int s, int e)
 {
-    if (s >= e)   // to check whether we have reached in middle of string 
+    if (s >= e)   // base case 
     return true;
 
     if (str[s] != str[e])  //checks first character and end character
