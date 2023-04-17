@@ -1,11 +1,23 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+//Two Pointer
 
 void zerosToend(vector <int> &a, int n)
 {
-    int s = 0, e = n - 1;
-    
+    int j = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] != 0)
+        {
+            a[j] = a[i];
+            j++;
+        }
+    }
+    for (; j < n; j++)
+    {
+        a[j] = 0;
+    }
 }
 
 int main()
