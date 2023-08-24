@@ -2,7 +2,7 @@
 
 class C1
 {
-    int val{};
+    int val {};
     public:
         void setValue(int value);
         int getValue();
@@ -21,5 +21,6 @@ int main()
 {
     C1 obj1;
     obj1.setValue(3);
-    std::cout << "Value is ", obj1.getValue();
+    std::cout << "Value is " << obj1.getValue();
+    return 0;
 }
