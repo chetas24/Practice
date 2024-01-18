@@ -33,5 +33,7 @@ int main()
     insert(&head, 23);
     insert(&head, 33);
     insert(&head, 43);
+    insert(&head, 53);
+    insert(&head, 63);
     display(head);
 }

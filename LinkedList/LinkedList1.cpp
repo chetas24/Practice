@@ -47,6 +47,7 @@ int main()
 {
     LinkedList list;
 
+    list.insertAtBeginning(4);
     list.insertAtBeginning(3);
     list.insertAtBeginning(2);
     list.insertAtBeginning(1);

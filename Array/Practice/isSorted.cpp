@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+// To check whether the array is sorted or not
+
 bool isSorted(vector <int> &a, int n)
 {
     for (int i = 1; i < n; i++)
@@ -21,7 +23,7 @@ bool isSorted(vector <int> &a, int n)
 
 int main()
 {
-    vector <int> a = {1, 2, 2, 3, 4};
+    vector <int> a = {1, 2, 5, 3, 4};
     int size = a.size();
 
     if(isSorted(a, size))
