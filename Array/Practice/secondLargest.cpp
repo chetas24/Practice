@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// second largest in an Array
+
 int main()
 {
     int arr[] = {5, 4, 7, 7, 1, 2};
