@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {2, 3, 1, 3, 2, 4, 1};
-    int n = 7;
+    int arr[] = {2, 3, 1, 3, 2, 4, 1, 2, 2, 5};
+    int n = 9;
 
     for (int i = 0; i < n; i++)
     {
