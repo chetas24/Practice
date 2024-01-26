@@ -40,11 +40,11 @@ LinkedList::~LinkedList()
 
 void LinkedList::print()
 {
-    class Node* iter = head;
-    while (iter != NULL)
+    class Node* iter = head;  
+    while (iter != NULL)  // if iter is not NULL
     {
-        printf("%d", iter -> elem);
-        iter = iter -> next;
+        printf("%d", iter -> elem);  // print(element)
+        iter = iter -> next;  // go to next address 
     }
 }
 
