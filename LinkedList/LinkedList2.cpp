@@ -18,8 +18,8 @@ public:
 
     void addFront(int x);
     void removeFront();
-    int len();
-    int search(int x);
+    int len();  
+    int search(int x);  // search will return whether the number is present in the list or not
     void print();
 };
 
